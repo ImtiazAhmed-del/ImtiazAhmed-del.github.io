@@ -7,7 +7,6 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
 html{
     scroll-behavior: smooth;
 }
@@ -111,11 +110,10 @@ section .title::after{
 .navbar .menu li{
     list-style: none;
     display: inline-block;
-    
 }
 .navbar .menu li a{
     display: block;
-   color: #fff;
+    color: #fff;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -153,10 +151,6 @@ section .title::after{
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
-}
-#icon{
-    width: 30px;
-    cursor: pointer;
 }
 .scroll-up-btn.show{
     bottom: 30px;
